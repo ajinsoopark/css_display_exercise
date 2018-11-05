@@ -1,0 +1,47 @@
+
+
+body {
+    display: grid;
+    display: flex;
+    justify-content: space-around;
+}
+
+.contacts {
+    display: grid;
+    grid-template-columns: repeat(3, 135px);
+    position: fixed;
+    bottom: 0px;
+    right: 0px;
+    background-color: white;
+    opacity: 0.75;
+}
+
+.skills {
+    display: grid;
+    grid-template-columns: 680px 250px; 
+    grid-column-gap: 20px;
+}
+
+.sun {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    z-index: 2;
+}
+
+img:hover {
+    display: none;
+}
+
+p:hover {
+    background-color: black;
+}
+
+* {
+    width: 20px;
+    position: relative;
+    top: 10px;
+    bottom: 50px;
+    right: 0px;
+    left: 70px;
+}
